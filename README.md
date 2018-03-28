@@ -248,6 +248,11 @@ Collectible. Breedable. Adorable. Collect and breed digital cats. The future is 
 
 See the [Awesome CryptoKitties (& CryptoCopycats)](https://github.com/openblockchains/awesome-cryptokitties) page »
 
+![](i/fancy-bugcat.png)
+![](i/fancy-genesis.png)
+![](i/fancy-goldendragon.png)
+![](i/fancy-fortunecat.png)
+
 
 
 ### CrytoDrakos (Yes, Cute Litte Cartoon Dragons) on the Blockchain! (Upcoming)
