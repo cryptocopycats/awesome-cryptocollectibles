@@ -66,7 +66,7 @@ Note: While some contracts may find it convenient to start with ID 0 and simply 
 
 Ethereum Request for Comments (ERCs)
 
-- [ERC #721 Non fungible token standard](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md), Ethereum Improvement Proposals (EIPs) page started in Jan 2018
+- [ERC #721 Non fungible token standard](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md), Ethereum Improvement Proposals (EIPs) page started in January 2018
 
 
 
@@ -119,7 +119,7 @@ interface ERC721Enumerable  {
 
 Ethereum Request for Comments (ERCs)
 
-- [ERC #721 Non fungible token standard)](https://github.com/ethereum/EIPs/issues/721), issue ticket opened in Sept 2017
+- [ERC #721 Non fungible token standard](https://github.com/ethereum/EIPs/issues/721), issue ticket opened in September 2017
 
 ERC #721 Contract / Service - [`contracts/ERC721-V0.sol`](contracts/ERC721-V0.sol):
 
