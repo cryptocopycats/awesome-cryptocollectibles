@@ -217,7 +217,7 @@ Gambling vs Investing
 >
 > -- [What's Gambling @ Wikipedia](https://en.wikipedia.org/wiki/Gambling)
 
-For example, the mixing of genomes when breeding (siring) new kitties is a modern
+For example, the mixing of genes when breeding (siring) new kitties is a modern
 "masqueraded" or fun way to roll a dice or spin a roulette wheel.
 The betting (wagering) on rare traits is a modern "masqueraded" or fun
 way of betting (wagering) on lucky numbers.
