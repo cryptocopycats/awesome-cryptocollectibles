@@ -1,7 +1,7 @@
 ![](i/cryptokitties-genes01.png)
 
 
-# Awesome CryptoCollectibles
+# Awesome CryptoCollectibles (& CryptoAssets)
 
 A collection about Awesome Crypto Collectibles - Yes, Non Fungible Tokens (NFTs) - Yes, Unique Bits & Bytes on the Blockchain - Buy! Sell! Hodl!
 
@@ -9,10 +9,53 @@ A collection about Awesome Crypto Collectibles - Yes, Non Fungible Tokens (NFTs)
 ![](i/cryptokitties-modernart-paintings.png)
 
 
-
 ## Non fungible tokens (NFT)s
 
 _Trade (unique) collectibles on the blockchain_
+
+Non fungible tokens (NFT)s can represent ownership 
+over digital or physical assets. Examples:
+
+- Physical property — houses, unique artwork
+- Virtual collectibles — unique pictures of kittens, collectible cards
+- "Negative value" assets — loans, burdens and other responsibilities
+
+In general, all houses are distinct and no two kittens are alike. Non fungible tokens (NFT)s are 
+*distinguishable* and you must track the ownership of each one separately.
+
+
+### Assets, Assets, Assets - Deeds, Deeds, Deeds - Titles, Titles, Titles
+
+Synonyms for non fungitble tokens in the "universe of distinguishable digital assets" include:
+
+- deed   (descriptive for certain applications, notably, physical property).
+- asset
+- title
+- token
+- equity
+- ticket
+
+
+### Unique Identifiers / IDs
+
+Every non fungible token (NFT) is identified by a unique uint265 ID inside the contract e.g.
+
+``` solidity
+/// @dev An array containing the Kitty struct for all Kitties in existence. The ID
+///  of each cat is actually an index into this array. Note that ID 0 is a negacat,
+///  the unKitty, the mythical beast that is the parent of all gen0 cats. A bizarre
+///  creature that is both matron and sire... to itself! Has an invalid genetic code.
+///  In other words, cat ID 0 is invalid... ;-)
+
+Kitty[] kitties;
+```
+
+The number SHALL NOT change for the life of the contract. 
+The pair (contract address, uint265 tokenId) will then be a globally unique and fully-qualified identifier for a specific asset on the ethereum blockchain. 
+
+Note: While some contracts may find it convenient to start with ID 0 and simply add one for each new token, callers SHALL NOT assume that ID numbers have any specific pattern,  and MUST treat the ID as a "black box". The choice of uint256 allows a wide variety of applications because UUIDs and SHA3 hashes are directly convertible to uint256.
+
+
 
 
 ### Ethereum Request for Comments (ERC) #721
