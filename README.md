@@ -203,8 +203,9 @@ Learn more @ [cryptozombies.io](https://cryptozombies.io)
 
 ## Collectibles 
 
+### Buyer Beware - Here Be Dragons! - Buyer Beware
 
-Q: Are crypto collectible "games" online gambling casinos?
+#### Q: Are crypto collectible "games" online gambling casinos?
 
 Gambling vs Investing
 
@@ -231,10 +232,11 @@ Do NOT "invest" trying to get-rich-quick
 or raise the stakes trying to win back what you have lost, and so on.**
 
 
-Q: What about scams?
+#### Q: What about scams?
 
 **BEWARE: Yes, most crypto collectible "games" are money-grabbing get-rich-quick rip-off schemes. 
 "Classic" scam examples include CryptoCelebrities, CryptoCountries, CryptoCities, Own A Number, EtherTulips and many more.**
+
 
 
 
