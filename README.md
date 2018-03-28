@@ -9,24 +9,25 @@ A collection about Awesome Crypto Collectibles - Yes, Non Fungible Tokens (NFTs)
 ![](i/cryptokitties-modernart-paintings.png)
 
 
-## Non fungible tokens (NFT)s
+## Non fungible tokens (NFTs)
 
 _Trade (unique) collectibles on the blockchain_
 
-Non fungible tokens (NFT)s can represent ownership 
+Non fungible tokens (NFTs) represent ownership 
 over digital or physical assets. Examples:
 
 - Physical property — houses, unique artwork
 - Virtual collectibles — unique pictures of kittens, collectible cards
 - "Negative value" assets — loans, burdens and other responsibilities
 
-In general, all houses are distinct and no two kittens are alike. Non fungible tokens (NFT)s are 
-*distinguishable* and you must track the ownership of each one separately.
+In general, all houses are distinct and no two kitties are alike. Non fungible tokens (NFTs) are 
+*distinguishable* and must track the ownership of each one separately.
+
 
 
 ### Assets, Assets, Assets - Deeds, Deeds, Deeds - Titles, Titles, Titles
 
-Synonyms for non fungitble tokens in the "universe of distinguishable digital assets" include:
+Synonyms for non fungible tokens (NFTs) in the "universe of distinguishable digital assets" include:
 
 - deed   (descriptive for certain applications, notably, physical property).
 - asset
@@ -38,7 +39,7 @@ Synonyms for non fungitble tokens in the "universe of distinguishable digital as
 
 ### Unique Identifiers / IDs
 
-Every non fungible token (NFT) is identified by a unique uint265 ID inside the contract e.g.
+Every non fungible token (NFT) is identified by a unique `uint256` ID inside the contract e.g.
 
 ``` solidity
 /// @dev An array containing the Kitty struct for all Kitties in existence. The ID
@@ -51,9 +52,11 @@ Kitty[] kitties;
 ```
 
 The number SHALL NOT change for the life of the contract. 
-The pair (contract address, uint265 tokenId) will then be a globally unique and fully-qualified identifier for a specific asset on the ethereum blockchain. 
+The pair (contract address, `uint256` tokenId) will then be a globally unique and fully-qualified identifier 
+for a specific asset on the ethereum blockchain. 
 
-Note: While some contracts may find it convenient to start with ID 0 and simply add one for each new token, callers SHALL NOT assume that ID numbers have any specific pattern,  and MUST treat the ID as a "black box". The choice of uint256 allows a wide variety of applications because UUIDs and SHA3 hashes are directly convertible to uint256.
+Note: While some contracts may find it convenient to start with ID 0 and simply add one for each new token, callers SHALL NOT assume that ID numbers have any specific pattern,  and MUST treat the ID as a "black box". The choice of uint256 allows a wide variety of applications because UUIDs and SHA3 hashes are directly convertible to `uint256`.
+
 
 
 
