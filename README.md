@@ -3,7 +3,7 @@
 
 # Awesome CryptoCollectibles (& CryptoAssets)
 
-A collection about Awesome Crypto Collectibles - Yes, Non Fungible Tokens (NFTs) - Yes, Unique Bits & Bytes on the Blockchain - Buy! Sell! Hodl!
+A collection about Awesome Crypto Collectibles (& Assets) - Yes, Non Fungible Tokens (NFTs) - Yes, Unique Bits & Bytes on the Blockchain - Buy! Sell! Hodl!
 
 
 ![](i/cryptokitties-modernart-paintings.png)
@@ -11,7 +11,7 @@ A collection about Awesome Crypto Collectibles - Yes, Non Fungible Tokens (NFTs)
 
 ## Non fungible tokens (NFTs)
 
-_Trade (unique) collectibles on the blockchain_
+_Buy & sell or auction & bid (unique) collectibles on the blockchain_
 
 Non fungible tokens (NFTs) represent ownership 
 over digital or physical assets. Examples:
@@ -26,14 +26,13 @@ In general, all houses are distinct and no two kitties are alike. Non fungible t
 
 
 
-### Assets, Assets, Assets - Deeds, Deeds, Deeds - Titles, Titles, Titles
+### Asset, Deed, Title, Equity, ...
 
 Synonyms for non fungible tokens (NFTs) in the "universe of distinguishable digital assets" include:
 
 - deed   (descriptive for certain applications, notably, physical property).
 - asset
 - title
-- token
 - equity
 - ticket
 
@@ -71,7 +70,7 @@ Ethereum Request for Comments (ERCs)
 
 
 
-ERC #721 Contract / Service
+ERC #721 Contract / Service - [`contracts/ERC721-V0.sol`](contracts/ERC721-V1.sol):
 
 ``` solidity
 interface ERC721  {
@@ -114,9 +113,6 @@ interface ERC721Enumerable  {
 }
 ```
 
-(Source: [`contracts/ERC721-V0.sol`](contracts/ERC721-V1.sol))
-
-
 
 
 #### Version 0 / V0
@@ -125,7 +121,7 @@ Ethereum Request for Comments (ERCs)
 
 - [ERC #721 Non fungible token standard)](https://github.com/ethereum/EIPs/issues/721), issue ticket opened in Sept 2017
 
-ERC #721 Contract / Service
+ERC #721 Contract / Service - [`contracts/ERC721-V0.sol`](contracts/ERC721-V0.sol):
 
 ``` solidity
 // Required methods
@@ -147,23 +143,22 @@ function tokensOfOwner(address _owner) external view returns (uint256[] tokenIds
 function tokenMetadata(uint256 _tokenId, string _preferredTransport) public view returns (string infoUrl);
 ```
 
-(Source: [`contracts/ERC721-V0.sol`](contracts/ERC721-V0.sol))
 
-
-
-
-#### Documentation
-
-ERC #721 Info Website (web: [erc721.org](http://erc721.org))
 
 
 <!--
 
-#### Ethereum Request for Comments (ERC)s
+#### More Ethereum Request for Comments (ERCs)
 
 - [ERC #875 Non fungible tokens and simple atomic swaps](https://github.com/ethereum/EIPs/issues/875), Feb 2018
 
 -->
+
+
+#### Documentation
+
+- ERC #721 Info Website (web: [erc721.org](http://erc721.org))
+
 
 
 
@@ -191,9 +186,9 @@ _Build your own crypto collectibles (from scratch)_
 
 A free, interactive code school that teaches you to build crypto collectible games on the ethereum blockchain.
 
-> Build a Zombie Army. In Lesson 1, you will build a Zombie Factory to build your army. 
-> Every Zombie you create will have randomly generated DNA and have his own unique appearance.
-> Further lessons (1 released each week) will add more functionality to your game, 
+> Build a zombie army. In Lesson 1, you will build a zombie factory to build your army. 
+> Every zombie you create will have randomly generated genes and have his own unique appearance.
+> Further lessons (one released each week) will add more functionality to your game, 
 > like the ability to battle other people's zombies! 
 
 Learn more @ [cryptozombies.io](https://cryptozombies.io)
@@ -224,10 +219,10 @@ way of betting (wagering) on lucky numbers.
 
 And, of course, the kitties are a modern "masqueraded" or fun way of casino "funny money" tokens
 rebranded as digital "virtual" cat collectibles or
-non fungible tokens (NFTs).
+"non fungible" tokens (NFTs).
 
 **BEWARE: Gambling is fun and addictive. Winning and losing. Up and down.
-Treat CryptoKittes (and CryptoCollectibles) as entertainment like casino gambling, sports betting or poker cards playing.
+Treat CryptoKitties (and CryptoCollectibles) as entertainment like casino gambling, sports betting or poker cards playing.
 Do NOT "invest" trying to get-rich-quick
 or raise the stakes trying to win back what you have lost, and so on.**
 
@@ -235,10 +230,7 @@ or raise the stakes trying to win back what you have lost, and so on.**
 #### Q: What about scams?
 
 **BEWARE: Yes, most crypto collectible "games" are money-grabbing get-rich-quick rip-off schemes. 
-"Classic" scam examples include CryptoCelebrities, CryptoCountries, CryptoCities, Own A Number, EtherTulips and many more.**
-
-
-
+"Classic" scam examples include CryptoCelebrities, CryptoCountries, CryptoCities, Own A Number, EtherTulips, EthPyramid and many more.**
 
 
 
@@ -488,9 +480,8 @@ See the ethereum distributed app tracker, web: [dapptrack.com](https://dapptrack
 
 ## Awesome Awesomeness
 
-- [Awesome Non Fungible Tokens (NFTs)](https://github.com/buendiadas/awesome-nonfungibletokens) - an awesome curated list of resources regarding implementations of Non Fungible Tokens (ERC721 standard).
+- [Awesome Non Fungible Tokens (NFTs)](https://github.com/buendiadas/awesome-nonfungibletokens) - an awesome curated list of resources about non fungible tokens (NFTs) using the ethereum request for comments (ERC) #721 standard.
 - [Awesome Blockchains](https://github.com/openblockchains/awesome-blockchains) - a collection about awesome blockchains - open distributed public databases w/ crypto hashes incl. git ;-). Blockchains are the new tulips. Distributed is the new centralized.
-
 
 
 
