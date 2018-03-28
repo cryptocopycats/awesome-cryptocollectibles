@@ -255,7 +255,7 @@ See the [Awesome CryptoKitties (& CryptoCopycats)](https://github.com/openblockc
 
 
 
-### CrytoDrakos (Yes, Cute Litte Cartoon Dragons) on the Blockchain! (Upcoming)
+### CryptoDrakos (Yes, Cute Litte Cartoon Dragons) on the Blockchain! (Upcoming)
 
 Collectible. Breedable. Admirable. Unbeatable.
 
