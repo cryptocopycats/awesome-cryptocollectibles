@@ -448,17 +448,29 @@ Learn more @ [openblockchains/tulips](https://github.com/openblockchains/tulips)
 
 ### News & Updates
 
-**CryptoGames on the Blockchain! News**
-
-See web: [cryptogamer.net](http://www.cryptogamer.net), twitter: [CryptoGamerNet](https://twitter.com/CryptoGamerNet)
-
 
 **Crypto Blockchain Games List**
 
 See the reddit for an [up-to-date crypto blockchain games list](https://www.reddit.com/r/BlockchainGame/comments/7oi21o/daily_updated_table_list_of_blockchain_based_games/), 
 reddit: [BlockchainGame](https://www.reddit.com/r/BlockchainGame)
-incl. Etheremon, Pandarium, SubPrime Crypto, EtherRock, Tron Dogs, Own A Number, CryptoBots, CryptoAlpaca, EtherLambos, CryptoArts
+
+incl. 
+CryptoAlpaca, 
+CryptoBots, 
+CryptoArts, 
+Etheremon, 
+EtherRock, 
+EtherLambos, 
+Pandarium, 
+Tron Dogs, 
+SubPrime Crypto, 
+Own A Number,
 and many more.
+
+
+**CryptoGames on the Blockchain! News**
+
+See web: [cryptogamer.net](http://www.cryptogamer.net), twitter: [CryptoGamerNet](https://twitter.com/CryptoGamerNet)
 
 
 **Ethereum Crypto Games by Transaction Volume**
